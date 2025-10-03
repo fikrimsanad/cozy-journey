@@ -522,9 +522,9 @@ export default function Home() {
                 viewBox="0 0 24 24"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </p>
@@ -539,9 +539,9 @@ export default function Home() {
                 viewBox="0 0 24 24"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
                 <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
               </svg>
@@ -558,9 +558,9 @@ export default function Home() {
               >
                 <path
                   fill="currentColor"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </p>
@@ -624,7 +624,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-        </div>{" "}
+        </div>
         <div className="px-4 py-8 space-y-4">
           <h3 className="text-white text-xl font-bold">Kontak</h3>
           <div className="space-y-4">
@@ -646,8 +646,68 @@ export default function Home() {
               </li>
             </ul>
             <h3 className="text-white text-xl font-bold">News Letter</h3>
+            <div>
+              <div className="mb-5">
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    id="base-input"
+                    placeholder="Email Anda"
+                    className="bg-white/10 border-white/20 border-0 text-white placeholder:text-white/60 rounded-md"
+                  ></input>
+                  <button
+                    type="submit"
+                    className="flex-shrink-0 bg-green-800 px-3 py-2 rounded-lg hover:bg-green-900 hover:cursor-pointer"
+                  >
+                    <svg
+                      className="w-4 h-4 text-gray-800 dark:text-white rotate-45"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2a1 1 0 0 1 .932.638l7 18a1 1 0 0 1-1.326 1.281L13 19.517V13a1 1 0 1 0-2 0v6.517l-5.606 2.402a1 1 0 0 1-1.326-1.281l7-18A1 1 0 0 1 12 2Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>{" "}
+        </div>
+      </div>
+      <div className="bg-green-700 w-full py-8 px-12 space-y-8">
+        <div className="w-full bg-white h-[0.04]"></div>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-white text-sm">
+            © 2025 Islamic Education Exchange. All rights reserved.
+          </p>
+          <div className="flex gap-6 text-sm text-white">
+            <a
+              href="#"
+              className="text-primary-foreground/80 hover:text-secondary transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#"
+              className="text-primary-foreground/80 hover:text-secondary transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="#"
+              className="text-primary-foreground/80 hover:text-secondary transition-colors"
+            >
+              Cookie Policy
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
