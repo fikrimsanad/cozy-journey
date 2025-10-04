@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
-      <div className="bg-black">
+      <div className="bg-[url(/hero-makkah.png)] bg-contain bg-no-repeat hidden md:block">
         <div className="w-full top-0 fixed py-8 mx-auto flex justify-center">
           <div className="py-6 px-12 rounded-full bg-green-600 flex justify-start space-x-12">
             <Link href={"/"} className="text-white hover:text-green-800">
@@ -25,7 +25,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="space-y-8 grid grid-cols-1 place-items-center text-center pt-48">
+        <div className="space-y-8 grid grid-cols-1 place-items-center text-center pt-44">
           <div>
             <h1 className="text-white text-6xl font-bold">
               Journey to Discover Your Path
@@ -40,18 +40,18 @@ export default function Home() {
           </div>
         </div>
         <div className="py-28 flex justify-center">
-          <div className="bg-white py-8 px-8 w-8/12 rounded-3xl">
-            <div className="space-y-1">
-              <h3 className="text-xl">Cari Program</h3>
-              <p className="text-sm font-light text-gray-500">
+          <div className="bg-white py-8 px-8 w-8/12 rounded-lg">
+            <div className="space-y-2">
+              <h3 className="text-xl font-bold">Cari Program</h3>
+              <p className="text-sm font-light text-gray-400">
                 Temukan program yang sesuai dengan kebutuhan pendidikan Anda
               </p>
             </div>
-            <form className="grid grid-cols-4 gap-4 py-10">
+            <form className="grid grid-cols-4 gap-4 py-8">
               <div className="w-full space-y-2">
-                <h3 className="text-lg text-gray-500">Tujuan</h3>
+                <h3 className="text-sm text-gray-500">Tujuan</h3>
                 <div className="px-4 py-2 border border-gray-200 rounded-sm">
-                  <select className="w-full border-0">
+                  <select className="w-full border-0 text-sm">
                     <option>Pilih Tujuan</option>
                     <option>New Mexico</option>
                     <option>Missouri</option>
@@ -60,9 +60,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full space-y-2">
-                <h3 className="text-lg text-gray-500">Durasi Program</h3>
+                <h3 className="text-sm text-gray-500">Durasi Program</h3>
                 <div className="px-4 py-2 border border-gray-200 rounded-sm">
-                  <select className="w-full border-0">
+                  <select className="w-full border-0 text-sm">
                     <option>Pilih Durasi</option>
                     <option>2 Minggu</option>
                     <option>1 Bulan</option>
@@ -70,15 +70,18 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full space-y-2">
-                <h3 className="text-lg text-gray-500">Tanggal Mulai</h3>
+                <h3 className="text-sm text-gray-500">Tanggal Mulai</h3>
                 <div className="px-4 py-2 border border-gray-200 rounded-sm">
-                  <input type="date" className="w-full border-0"></input>
+                  <input
+                    type="date"
+                    className="w-full border-0 text-sm"
+                  ></input>
                 </div>
               </div>
               <div className="w-full space-y-2">
-                <h3 className="text-lg text-gray-500">Peserta</h3>
+                <h3 className="text-sm text-gray-500">Peserta</h3>
                 <div className="px-4 py-2 border border-gray-200 rounded-sm">
-                  <select className="w-full border-0 ">
+                  <select className="w-full border-0 text-sm ">
                     <option>Jumlah Peserta</option>
                     <option>5-10 Orang</option>
                     <option>20 Orang</option>
@@ -89,13 +92,13 @@ export default function Home() {
             </form>
             <div className="w-full flex justify-center gap-4">
               <button
-                className="bg-green-600 focus:shadow-outline focus:outline-none text-white font-bold py-4 px-8 rounded"
+                className="bg-green-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                 type="button"
               >
                 Cari Program
               </button>
               <button
-                className="focus:shadow-outline focus:outline-none text-black font-bold py-4 px-8 rounded"
+                className="focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded"
                 type="button"
               >
                 Reset
@@ -104,20 +107,20 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-center py-20 space-y-8 mt-32">
+      <div className="text-center md:py-20 space-y-8 md:mt-32">
         <h2 className="font-bold text-5xl">
           Membangun Jembatan
-          <span className="font-bold text-5xl text-green-700">
+          <span className="font-bold text-5xl text-green-700 ml-3">
             Pendidikan Global
           </span>
         </h2>
-        <p className="font-light text-sm text-gray-400 mx-80">
+        <p className="font-light text-sm text-gray-400 md:mx-80">
           Kami adalah lembaga pendidikan terpercaya yang telah memfasilitasi
           ribuan siswa untuk menempuh pendidikan di negara Internasional Arab
           Saudi, Jepang, Korea Selatan Dan Australi .
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-18 py-10 mb-20">
+      <div className="grid grid-cols-1 px-4 md:grid-cols-2 md:gap-6 md:px-18 md:py-10">
         <div className="w-full py-48 bg-[url(/background-about.jpg)] bg-cover rounded-xl"></div>
         <div className="w-full py-10 space-y-10 px-8">
           <div className="flex items-start gap-4">
@@ -181,7 +184,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start gap-6 px-8 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6 px-8 py-10">
         <div className="bg-black py-55 px-55"></div>
         <div className="bg-black py-55 px-55"></div>
         <div className="bg-black py-55 px-55"></div>
@@ -201,7 +204,7 @@ export default function Home() {
       </div>
       <div className="flex justify-start gap-6 px-8 py-6">
         <div className="w-full rounded-xl border border-gray-200">
-          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="w-full h-48 bg-[url(/hero-makkah.png)] bg-cover rounded-t-xl"></div>
           <div className="py-4 px-6">
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
@@ -255,7 +258,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full rounded-xl border border-gray-200">
-          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="w-full h-48 bg-[url(/hero-makkah.png)] bg-cover rounded-t-xl"></div>
           <div className="py-4 px-6">
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
@@ -309,7 +312,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full rounded-xl border border-gray-200">
-          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="w-full h-48 bg-[url(/hero-makkah.png)] bg-cover  rounded-t-xl"></div>
           <div className="py-4 px-6">
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
@@ -653,7 +656,7 @@ export default function Home() {
                     type="text"
                     id="base-input"
                     placeholder="Email Anda"
-                    className="bg-white/10 border-white/20 border-0 text-white placeholder:text-white/60 rounded-md"
+                    className="bg-white/10 border-white/20 border-0 text-white placeholder:text-white/60 px-4 py-2 rounded-md"
                   ></input>
                   <button
                     type="submit"
