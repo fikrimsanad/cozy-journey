@@ -21,6 +21,137 @@ function contact() {
           </div>
         </div>
       </div>
+      <div className="px-20 py-20 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Visi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
+            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
+            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
+            berwawasan global.
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Misi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Membangun kemitraan strategis dengan universitas terkemuka
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
+            spiritual
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Menciptakan jaringan alumni yang kuat dan bermanfaat
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Misi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Membangun kemitraan strategis dengan universitas terkemuka
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
+            spiritual
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Menciptakan jaringan alumni yang kuat dan bermanfaat
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Visi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
+            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
+            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
+            berwawasan global.
+          </p>
+        </div>
+      </div>
+      <div className="px-20 py-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Visi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
+            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
+            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
+            berwawasan global.
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Misi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Membangun kemitraan strategis dengan universitas terkemuka
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
+            spiritual
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Menciptakan jaringan alumni yang kuat dan bermanfaat
+          </p>
+        </div>
+      </div>
+      <div className="px-20 py-20 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Visi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
+            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
+            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
+            berwawasan global.
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Misi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Membangun kemitraan strategis dengan universitas terkemuka
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
+            spiritual
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Menciptakan jaringan alumni yang kuat dan bermanfaat
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Misi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Membangun kemitraan strategis dengan universitas terkemuka
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
+            spiritual
+          </p>
+          <p className="font-light text-sm text-gray-500">
+            Menciptakan jaringan alumni yang kuat dan bermanfaat
+          </p>
+        </div>
+        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <h3 className="font-bold text-2xl">Visi Kami</h3>
+          <p className="font-light text-sm text-gray-500">
+            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
+            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
+            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
+            berwawasan global.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
