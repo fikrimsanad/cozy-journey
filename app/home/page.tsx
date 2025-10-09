@@ -367,10 +367,70 @@ function HomePage() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-8 md:py-10">
-        <div className="bg-black h-72 w-full"></div>
-        <div className="bg-black h-72 w-full"></div>
-        <div className="bg-black h-72 w-full"></div>
-        <div className="bg-black h-72 w-full"></div>
+        <div className="bg-white border border-gray-200 rounded-3xl h-72 w-full px-8 py-10">
+          <p className="italic font-light text-black">
+            "Program ini benar-benar mengubah hidup saya. Pengalaman belajar di
+            Makkah memberikan perspektif baru tentang Islam dan bahasa Arab."
+          </p>
+          <div className="flex py-8">
+            <div className="h-25 w-25 rounded-full bg-black"></div>
+            <div className="px-4 py-3 space-y-1">
+              <span className="bg-green-800 text-white text-xs rounded-full px-3 py-1.5">
+                Program Australi
+              </span>
+              <h4 className="text-xl font-bold mt-2">Fikri Muhammad</h4>
+              <p className="text-sm font-light">Pelajar SMK Negri 09 Jakarta</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white border border-gray-200 rounded-3xl h-72 w-full px-8 py-10">
+          <p className="italic font-light text-black">
+            "Program ini benar-benar mengubah hidup saya. Pengalaman belajar di
+            Makkah memberikan perspektif baru tentang Islam dan bahasa Arab."
+          </p>
+          <div className="flex py-8">
+            <div className="h-25 w-25 rounded-full bg-black"></div>
+            <div className="px-4 py-3 space-y-1">
+              <span className="bg-green-800 text-white text-xs rounded-full px-3 py-1.5">
+                Program Australi
+              </span>
+              <h4 className="text-xl font-bold mt-2">Fikri Muhammad</h4>
+              <p className="text-sm font-light">Pelajar SMK Negri 09 Jakarta</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white border border-gray-200 rounded-3xl h-72 w-full px-8 py-10">
+          <p className="italic font-light text-black">
+            "Program ini benar-benar mengubah hidup saya. Pengalaman belajar di
+            Makkah memberikan perspektif baru tentang Islam dan bahasa Arab."
+          </p>
+          <div className="flex py-8">
+            <div className="h-25 w-25 rounded-full bg-black"></div>
+            <div className="px-4 py-3 space-y-1">
+              <span className="bg-green-800 text-white text-xs rounded-full px-3 py-1.5">
+                Program Australi
+              </span>
+              <h4 className="text-xl font-bold mt-2">Fikri Muhammad</h4>
+              <p className="text-sm font-light">Pelajar SMK Negri 09 Jakarta</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white border border-gray-200 rounded-3xl h-72 w-full px-8 py-10">
+          <p className="italic font-light text-black">
+            "Program ini benar-benar mengubah hidup saya. Pengalaman belajar di
+            Makkah memberikan perspektif baru tentang Islam dan bahasa Arab."
+          </p>
+          <div className="flex py-8">
+            <div className="h-25 w-25 rounded-full bg-black"></div>
+            <div className="px-4 py-3 space-y-1">
+              <span className="bg-green-800 text-white text-xs rounded-full px-3 py-1.5">
+                Program Australi
+              </span>
+              <h4 className="text-xl font-bold mt-2">Fikri Muhammad</h4>
+              <p className="text-sm font-light">Pelajar SMK Negri 09 Jakarta</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="text-center py-12 space-y-4 mt-48">
         <h2 className="font-bold text-5xl">Info Dan Berita</h2>
