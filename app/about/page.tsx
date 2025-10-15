@@ -1,3 +1,4 @@
+import { GraduationCap, School, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -61,9 +62,33 @@ function detail() {
       </div>
 
       <div className="px-48 py-5 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="py-10 w-full rounded-sm border border-gray-400"></div>
-        <div className="py-10 w-full rounded-sm border border-gray-400"></div>
-        <div className="py-10 w-full rounded-sm border border-gray-400"></div>
+        <div className="py-10 w-full  grid grid-cols-1 justify-items-center space-y-8">
+          <div>
+            <GraduationCap size={45} color="green" />
+          </div>
+          <div className="text-center">
+            <h4>+100</h4>
+            <p>Alumni Sukses</p>
+          </div>
+        </div>
+        <div className="py-10 w-full  grid grid-cols-1 justify-items-center space-y-8">
+          <div>
+            <School size={45} color="green" />
+          </div>
+          <div className="text-center">
+            <h4>+10</h4>
+            <p>Partner Universitas</p>
+          </div>
+        </div>
+        <div className="py-10 w-full  grid grid-cols-1 justify-items-center space-y-8">
+          <div className="text-center">
+            <ShieldCheck size={45} color="green" />
+          </div>
+          <div className="text-center">
+            <h4>+5</h4>
+            <p>Tahun Pengalaman</p>
+          </div>
+        </div>
       </div>
       <div className="px-20 py-10 space-y-4 ">
         <p className="font-light text-sm text-gray-500 md:mx-48">

@@ -1,3 +1,4 @@
+import { Calendar, MapPin, UsersRound } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -78,13 +79,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -111,6 +115,21 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
+
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -120,7 +139,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>
@@ -132,13 +151,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -165,6 +187,20 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -174,7 +210,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>
@@ -186,13 +222,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -219,6 +258,20 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -228,7 +281,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>
@@ -240,13 +293,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -273,6 +329,20 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -282,7 +352,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>
@@ -294,13 +364,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -327,6 +400,20 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -336,7 +423,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>
@@ -348,13 +435,16 @@ function program() {
             <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
           </div>
           <div className="flex gap-6 px-6">
-            <div>
+            <div className="flex gap-1">
+              <MapPin size={17} />
               <p className="text-xs">Mekkah, Saudi Arabia</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <Calendar size={17} />
               <p className="text-xs">2 Minggu</p>
             </div>
-            <div>
+            <div className="flex gap-1">
+              <UsersRound size={17} />
               <p className="text-xs">15-20 Peserta</p>
             </div>
           </div>
@@ -381,6 +471,20 @@ function program() {
               </span>
             </div>
           </div>
+          <div className="px-5">
+            <div className="md:flex justify-between gap-3 px-4 py-4 bg-gray-50 mb-6 rounded-lg">
+              <div className="py-1">
+                <p className="font-light text-sm text-gray-500">
+                  Harga Program :
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-green-700 text-xl">
+                  Rp 35.000.000
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
@@ -390,7 +494,7 @@ function program() {
             </Link>
             <Link
               className="px-6 py-3 rounded-md border border-gray-300"
-              href={""}
+              href={"/program/detail-program"}
             >
               Detail
             </Link>

@@ -44,7 +44,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
@@ -73,7 +76,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
@@ -102,7 +108,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
@@ -131,7 +140,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
@@ -160,7 +172,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
@@ -189,7 +204,10 @@ function blog() {
             <Link className=" py-3 px-2 rounded-md text-black" href={""}>
               Dr. Ahmad Thohir
             </Link>
-            <Link className="px-10 py-3 text-black font-bold" href={""}>
+            <Link
+              className="px-10 py-3 text-black font-bold"
+              href={"/blog/detail-blog"}
+            >
               Baca Selengkapnya
             </Link>
           </div>
