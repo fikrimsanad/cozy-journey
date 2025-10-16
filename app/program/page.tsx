@@ -133,7 +133,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
@@ -204,7 +204,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
@@ -275,7 +275,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
@@ -346,7 +346,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
@@ -417,7 +417,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
@@ -488,7 +488,7 @@ function program() {
           <div className="md:flex gap-3 px-4 py-2">
             <Link
               className="bg-green-600 py-3 px-22 rounded-md text-white"
-              href={""}
+              href={"/registration"}
             >
               Daftar Sekarang
             </Link>
