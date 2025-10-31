@@ -1,4 +1,11 @@
-import { GraduationCap, School, ShieldCheck } from "lucide-react";
+import {
+  GraduationCap,
+  MapPinHouse,
+  ScanEye,
+  School,
+  ShieldCheck,
+  Target,
+} from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -24,6 +31,9 @@ function detail() {
       </div>
       <div className="px-20 py-20 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <div className="w-fit px-4 py-4 bg-gray-50 rounded-lg">
+            <ScanEye color="green" size={40} />
+          </div>
           <h3 className="font-bold text-2xl">Visi Kami</h3>
           <p className="font-light text-sm text-gray-500">
             Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
@@ -33,6 +43,9 @@ function detail() {
           </p>
         </div>
         <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
+          <div className="w-fit px-4 py-4 bg-gray-50 rounded-lg">
+            <Target color="green" size={40} />
+          </div>
           <h3 className="font-bold text-2xl">Misi Kami</h3>
           <p className="font-light text-sm text-gray-500">
             Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
