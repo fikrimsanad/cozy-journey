@@ -179,87 +179,46 @@ function detail() {
           </div>
         </div>
       </div>
+      <div className="px-20 py-10 space-y-4 text-center ">
+        <h3 className="font-bold text-4xl">Patner dan Sahabat Kami</h3>
+        <p className="font-light text-sm text-gray-500 md:mx-48">
+          Dipimpin oleh para ahli dengan dedikasi tinggi terhadap pendidikan
+          Islam
+        </p>
+      </div>
       <div className="px-20 py-20 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Visi Kami</h3>
+        <div className="border border-gray-100 py-8 px-10 w-full rounded-md space-y-4">
+          <img src={"/mages-logo.png"}></img>
+          <h3 className="font-bold text-2xl">Mages Institute</h3>
+          <p>https://mages.edu.sg/</p>
           <p className="font-light text-sm text-gray-500">
-            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
-            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
-            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
-            berwawasan global.
+            Gaming Institute Dari Singapura, Tempat dimana kita bisa belajar
+            mengenai game development dan 3d animasi.
           </p>
         </div>
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Misi Kami</h3>
+        <div className="border border-gray-100 py-8 px-10 w-full rounded-md space-y-4">
+          <img src={"/Islamic_University_of_Madinah_Logo.png"}></img>
+          <h3 className="font-bold text-2xl">Islamic Madinah University</h3>
+          <p className="font-light text-sm text-gray-500">https://iu.edu.sa/</p>
           <p className="font-light text-sm text-gray-500">
-            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Membangun kemitraan strategis dengan universitas terkemuka
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
-            spiritual
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Menciptakan jaringan alumni yang kuat dan bermanfaat
+            Islamic Madinah University atau IUM adalah sebuah perguruan tinggi
+            negeri Islam yang terletak di kota Madinah (Madinah al-Munawwarah),
+            Arab Saudi. Program studi cukup luas – meskipun fokus utama adalah
+            bidang keislaman/tradisional, ada fakultas yang menangani sains,
+            teknik, komputer
           </p>
         </div>
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Misi Kami</h3>
+        <div className="border border-gray-100 py-8 px-10 w-full rounded-md space-y-4">
+          <img src={"/deaikin-logo.png"}></img>
+          <h3 className="font-bold text-2xl">Deakin University</h3>
           <p className="font-light text-sm text-gray-500">
-            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
+            https://www.deakin.edu.au/
           </p>
           <p className="font-light text-sm text-gray-500">
-            Membangun kemitraan strategis dengan universitas terkemuka
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
-            spiritual
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Menciptakan jaringan alumni yang kuat dan bermanfaat
-          </p>
-        </div>
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Visi Kami</h3>
-          <p className="font-light text-sm text-gray-500">
-            Menjadi lembaga terdepan dalam memfasilitasi Perjalanan pendidikan
-            yang berkualitas, menghubungkan pelajar Indonesia dengan tempat
-            pendidikan terbaik di dunia, dan menghasilkan generasi berakhlak dan
-            berwawasan global.
-          </p>
-        </div>
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Misi Kami</h3>
-          <p className="font-light text-sm text-gray-500">
-            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Membangun kemitraan strategis dengan universitas terkemuka
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
-            spiritual
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Menciptakan jaringan alumni yang kuat dan bermanfaat
-          </p>
-        </div>
-        <div className="border border-gray-200 py-8 px-10 w-full rounded-md space-y-4">
-          <h3 className="font-bold text-2xl">Misi Kami</h3>
-          <p className="font-light text-sm text-gray-500">
-            Menyediakan program pertukaran berkualitas tinggi ke berbagai negara
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Membangun kemitraan strategis dengan universitas terkemuka
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Memberikan bimbingan komprehensif untuk kesuksesan akademik dan
-            spiritual
-          </p>
-          <p className="font-light text-sm text-gray-500">
-            Menciptakan jaringan alumni yang kuat dan bermanfaat
+            Deakin University adalah universitas riset publik yang berbasis di
+            negara bagian Victoria, Australia.Fokus praktikal dan kesiapan kerja
+            menjadi salah satu ciri khas: kurikulum yang “menghubungkan” dengan
+            industri di Deakin University.
           </p>
         </div>
       </div>
