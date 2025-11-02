@@ -27,9 +27,9 @@ function tracking() {
           <div className="bg-green-600 h-2.5 rounded-full w-2/4"></div>
         </div>
       </div>
-      <div className="py-14">
+      <div className="py-10">
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
-          <li className="mb-10 ms-4">
+          <li className="mb-2 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               February 2022
@@ -56,7 +56,7 @@ function tracking() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M1 5h12m0 0L9 1m4 4L9 9"
